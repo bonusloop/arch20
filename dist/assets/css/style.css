@@ -1,0 +1,53 @@
+.header .container {
+    padding: 0px 15px;
+    border: greenyellow 1px solid;
+}
+
+@media screen and (min-width: 414px) {
+    .header .container {
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header .container {
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .header .container {
+        padding: 0px;
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+}
+
+.header__inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 64px;
+}
+
+.header__btn-burger {
+    background-color: #0078DC;
+    width: 42px;
+    height: 42px;
+}

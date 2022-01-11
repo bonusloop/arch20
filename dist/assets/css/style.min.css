@@ -1,2 +1,61 @@
+.header .container {
+  padding: 0px 15px;
+  border: greenyellow 1px solid; }
+  @media screen and (min-width: 414px) {
+    .header .container {
+      padding: 0px 10px; } }
+  @media screen and (min-width: 768px) {
+    .header .container {
+      padding: 0px 20px; } }
+  @media screen and (min-width: 960px) {
+    .header .container {
+      padding: 0px;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto; } }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+button {
+  border: none; }
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 64px; }
+  @media screen and (min-width: 768px) {
+    .header__inner {
+      min-height: 100px; } }
+
+@media screen and (min-width: 768px) {
+  .header__img {
+    width: 105px; } }
+
+@media screen and (min-width: 960px) {
+  .header__img {
+    margin-left: 40px; } }
+
+.header__btn-burger {
+  background-color: #0078DC;
+  width: 42px;
+  height: 42px; }
+  @media screen and (min-width: 960px) {
+    .header__btn-burger {
+      display: none; } }
+
+.header__nav {
+  display: none; }
+  @media screen and (min-width: 960px) {
+    .header__nav {
+      display: block;
+      height: 40px;
+      background-color: #0078DC;
+      margin-bottom: 24px; } }
 
 /*# sourceMappingURL=style.min.css.map */

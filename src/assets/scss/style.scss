@@ -1,0 +1,23 @@
+@import './abstracts/vars';
+@import './abstracts/mixins';
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+button{
+    border: none;
+}
+
+
+
+@import './header.scss';
