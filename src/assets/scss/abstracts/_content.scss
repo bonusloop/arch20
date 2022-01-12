@@ -1,0 +1,25 @@
+.content{
+    .container{
+        @extend %container;
+    }
+    &__inner{
+
+    }
+    &__banner{
+        position: relative;
+        background-image: url(/src/assets/images/image1.png);
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: $overlayColor;
+        }
+    }
+    .content-item{
+        background-color: $backgroundColor;
+    }
+}
+
