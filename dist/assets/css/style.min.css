@@ -63,9 +63,25 @@ button {
       background-color: #0078DC;
       margin-bottom: 24px; } }
 
+.content .container {
+  padding: 0; }
+  @media screen and (min-width: 414px) {
+    .content .container {
+      padding: 0 10px; } }
+
+.content__inner {
+  display: grid;
+  grid-row-gap: 20px;
+  background-color: #F0F0F0;
+  padding: 0 20px; }
+  @media screen and (min-width: 414px) {
+    .content__inner {
+      padding: 0; } }
+
 .content__banner {
   position: relative;
-  background-image: url(/src/assets/images/image1.png); }
+  background-image: url(/src/assets/images/image1.png);
+  height: 224px; }
   .content__banner::after {
     content: '';
     position: absolute;
